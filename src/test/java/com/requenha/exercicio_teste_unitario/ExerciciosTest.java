@@ -8,7 +8,7 @@ public class ExerciciosTest {
     @Test
     void deveRetornarValidacaoQuandoNumeroForInserido(){
         double numero = 4;
-        Assertions.assertThat(numero).isEqualTo();
+        Assertions.assertThat(numero).isEqualTo(4);
     }
 
     @Test
