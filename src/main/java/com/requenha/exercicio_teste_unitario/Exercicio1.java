@@ -2,11 +2,11 @@ package com.requenha.exercicio_teste_unitario;
 
 public class Exercicio1 {
 
-    public static void verificar(double numero){
+    public static boolean verificar(double numero){
         if (numero % 2 == 0){
-            System.out.println("Par");
+            return true;
         }else {
-            System.out.println("ímpar");
+            return false;
         }
     }
 }
