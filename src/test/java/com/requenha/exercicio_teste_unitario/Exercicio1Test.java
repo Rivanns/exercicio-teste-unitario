@@ -3,7 +3,7 @@ package com.requenha.exercicio_teste_unitario;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class ExerciciosTest {
+public class Exercicio1Test {
 
     @Test
     void deveRetornarValidacaoQuandoNumeroForInserido(){
